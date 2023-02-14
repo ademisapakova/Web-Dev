@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: white;
+
+}
+
+.begining{
+    background-color: black;
+    color: gray;
+    padding: 15px 50px;
+    font-size: smaller;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+#header{
+    margin-left: 180px;
+    margin-top: 80px;
+    font-size: 45px;
+}
+
+#newtask{
+   
+    position: relative;
+    margin-top: 30px;
+    padding: 30px 20px;
+}
+.tick{
+    border: 1px solid gray;
+    width: 20px;
+    height: 20px;
+    margin: 0 50px 0 20px;
+    padding: 2px;
+}
+
+.check {
+    color: white;
+    /*display: none;*/
+}
+
+#newtask input{
+    position: relative;
+    margin-left: 240px;
+    width: 55%;
+    height: 35px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    border-radius: 5px;
+} 
+
+#newtask input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#newtask button{
+    position: relative;
+    margin-left: 20px;
+    width: 10%;
+    height: 35px;
+    border-radius: 5px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: blue;
+    border: none;
+    color: white;
+    outline: none;
+}
+#tasks{
+    margin-left: 180px;
+    margin-top: 10x;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 75%;
+    position: relative;
+
+}
+.task{
+    background-color: white;
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.1px solid #939697;
+    cursor: pointer;
+}
+
+.task span{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button{
+    float: right;
+    background: white;
+    color: red;
+    height: 100%;
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+} 
+
